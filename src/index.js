@@ -1,14 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import './media.css';
+import './style.css';
+import './theme.css';
 import './index.css';
+import vendors from "../src/vendors/images/Queue.png";
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+  
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  
   <React.StrictMode>
     <App />
   </React.StrictMode>
+  
 );
 
 // If you want to start measuring performance in your app, pass a function
